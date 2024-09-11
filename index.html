@@ -20,8 +20,9 @@
 <body>
     <div id="app" class="container mt-5">
         <h1 class="mb-4">Lista delle Email</h1>
-        <ul class="list-group">
-            <!-- Lista delle email che verranno generate-->
+
+        <!-- Mostro la lista delle email solo quando saranno gia tutte generate -->
+        <ul v-if="allEmailsGenerated" class="list-group">
             <li v-for="email in emails" :key="email" class="list-group-item">{{ email }}</li>
         </ul>
     </div>
