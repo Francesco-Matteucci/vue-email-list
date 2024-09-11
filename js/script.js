@@ -33,3 +33,5 @@ createApp({
         this.generateEmails();
     }
 }).mount('#app');
+
+//! ESERCIZIO FINITO
