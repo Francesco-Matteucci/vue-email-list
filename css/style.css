@@ -1,0 +1,41 @@
+body {
+    font-family: 'Poppins', sans-serif;
+}
+
+.container a,
+h1 {
+    color: #0A58D3;
+}
+
+h1 {
+    font-weight: 600;
+}
+
+.card-body {
+    font-weight: 400;
+}
+
+.card {
+    border-radius: 10px;
+    background: linear-gradient(135deg, #3A7BD5 0%, #00D2FF 100%);
+    color: #fff;
+    border: none;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #F8F9FA;
+    padding: 10px;
+}
+
+footer a {
+    text-decoration: none;
+}
